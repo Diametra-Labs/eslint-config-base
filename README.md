@@ -1,4 +1,4 @@
-# eslint-config-base
+# eslint-config-base-diametra
 
 The Diametra-Labs ESLint configuration preset is intended for react projects that are **written only with javascript**. It offers a very flexible configuration. This preset is not meant to kill your productivity, just worry about coding : )
 
