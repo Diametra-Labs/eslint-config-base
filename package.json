@@ -2,8 +2,16 @@
   "name": "@diametra/eslint-config-base",
   "version": "1.0.0",
   "main": "index.js",
+  "files": ["index.js", ".prettierrc.js"],
   "repository": "git@github.com:Diametra-Labs/eslint-config-base.git",
   "author": "Markoz Peña <markdrew53@gmail.com>",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "prettier-config",
+    "zero-config"
+  ],
   "license": "MIT",
   "private": false,
   "dependencies": {
