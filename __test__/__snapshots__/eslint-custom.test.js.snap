@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The eslint custom file should not change It should response with custom configuration 1`] = `
+Object {
+  "env": Object {
+    "browser": true,
+    "es6": true,
+    "node": true,
+  },
+  "extends": Array [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": Object {
+    "ecmaFeatures": Object {
+      "jsx": true,
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module",
+  },
+  "plugins": Array [
+    "react-hooks",
+  ],
+  "rules": Object {
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/react-in-jsx-scope": "off",
+  },
+}
+`;
