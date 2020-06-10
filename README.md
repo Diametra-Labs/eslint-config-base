@@ -17,11 +17,11 @@ The Diametra-Labs ESLint configuration preset is intended for react projects tha
 Install the package with
 
 ```sh
-npm install eslint-config-base --save-dev
+npm install eslint-config-base-diametra --save-dev
 
 # or
 
-yarn add eslint-config-base -D
+yarn add eslint-config-base-diametra -D
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ Now add the config to either your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "eslint-config-base"
+    "extends": "eslint-config-base-diametra"
   }
 }
 ```
@@ -40,7 +40,7 @@ to your `.eslintrc`:
 
 ```json
 {
-  "extends": "eslint-config-base"
+  "extends": "eslint-config-base-diametra"
 }
 ```
 
@@ -48,7 +48,7 @@ or `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: 'eslint-config-base',
+  extends: 'eslint-config-base-diametra',
 }
 ```
 
