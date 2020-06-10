@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-base",
+  "name": "eslint-config-base-diametra",
   "version": "1.0.0",
   "main": "index.js",
   "files": [
