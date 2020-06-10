@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The prettierrc custom file should not change It should response with custom configuration 1`] = `
+Object {
+  "singleQuote": true,
+}
+`;
