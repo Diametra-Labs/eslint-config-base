@@ -1,12 +1,14 @@
 {
-  "name": "eslint-config-base-diametra",
-  "version": "1.0.0",
+  "name": "@diametra/eslint-config-base-diametra",
+  "version": "1.0.1",
   "main": "index.js",
   "files": [
-    "index.js",
-    ".prettierrc.js"
+    "index.js"
   ],
   "repository": "git@github.com:Diametra-Labs/eslint-config-base.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "Markoz Peña <markdrew53@gmail.com>",
   "keywords": [
     "eslint",

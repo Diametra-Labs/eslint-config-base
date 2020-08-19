@@ -24,6 +24,12 @@ Object {
     "react-hooks",
   ],
   "rules": Object {
+    "prettier/prettier": Array [
+      "error",
+      Object {
+        "singleQuote": true,
+      },
+    ],
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
     "react/react-in-jsx-scope": "off",
